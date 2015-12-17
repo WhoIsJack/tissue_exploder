@@ -5,7 +5,7 @@ A simple algorithm to create a nice visualization of 3D single-cell segmentation
 - tissueRipper is	an algorithm that transforms 3D single-cell segmentations of confocal fluorescence microscopy data in a very particular way for the purpose of visualization. 
 - All it really does is shift the segmented cells apart such that cell size and shape as well as overall tissue architecture are preserved but all cells can be seen individually. 
 - tissueRipper is	written in Python 2.7 and requires the packages NumPy and SciPy (and optionally scikit-image and tifffile for import from and export to tif files).
-- Note: tissueRipper is	not	a useful intermediate step in a quantitative analysis pipeline: it is well suited for showing off the power of 3D single-cell segmentation, but it does not itself improve segmentations or help  with the analysis of segmented data.
+- Note: tissueRipper is	not	a useful intermediate step in a quantitative analysis pipeline; it is well suited for showing off the power of 3D single-cell segmentation, but it does not itself improve segmentations or help  with the analysis of segmented data, so it is purely a visualization aid.
 
 ## Files
 - tissueRipper.py           -- Contains all the code needed to actually run the algorithm. You can import this as a module and incorporate its functions into your image analysis pipeline.
