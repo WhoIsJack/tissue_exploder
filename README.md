@@ -1,5 +1,5 @@
 # tissueRipper
-A simple algorithm to create a nice visualization of 3D single-cell segmentations of tissues image with confocal fluorescence microscopy.
+A simple algorithm to create a nice "expanded" visualization of 3D single-cell segmentations of tissues imaged with confocal fluorescence microscopy.
 
 ## Description
 - tissueRipper is	an algorithm that transforms 3D single-cell segmentations of confocal fluorescence microscopy data in a very particular way for the purpose of visualization. 
