@@ -12,3 +12,11 @@ A simple algorithm to create a nice "expanded" visualization of 3D single-cell s
 - tR_example.py             -- Example code showing how to use the functions in tissueRipper.py.
 - Example Images.zip        -- Contains example images that can be used with tR_example.py to test if everything is working. These images are (obviously) not real data, just a quickly made-up construction for testing and illustration.
 - tissueRipper miniDoc.pdf  -- A very brief and general explanation of what the algorithm is, how it works, and how it is meant to be used in the context of image analysis pipelines. Does not include information on how to do things on the coding level; see tR_example.py for this purpose.
+- tissueRipper-0.9.zip      -- Source distribution for installation. Unpack and run "python setup.py install" in the unpacked tissueRipper-0.9 directory to install the module.
+- tissueRipper-0.9.win-amd64.exe -- Windows x64 installer making installation even easier if you happen to be working on this operating system.
+
+## Installation
+You have several options:
+- Download tissueRipper.py and put it in the working directory you want to use it in. Not a real installation but works fine.
+- Download tissueRipper-0.9.zip, unpack it and run "python setup.py install" in the unpacked directory.
+- For windows x64 only -- Download tissueRipper-0.9.win-amd64.exe, run it and follow the installation wizard.
