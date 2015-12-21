@@ -27,4 +27,4 @@ A simple algorithm to create a nice "expanded" visualization of 3D single-cell s
 You have several options:
 - Download tissueRipper.py and put it in the working directory you want to use it in. Not a real installation but works fine.
 - Download tissueRipper-0.9.zip, unpack it and run "python setup.py install" in the unpacked directory.
-- For windows x64 only -- Download tissueRipper-0.9.win-amd64.exe, run it and follow the installation wizard.
+- For windows x64 only -- Download tissueRipper-0.9.win-amd64.exe, run it and follow the installation wizard. **NOTE:** This has been tested on different machines but did not work on all of them. Use one of the other means of installing if this fails!
