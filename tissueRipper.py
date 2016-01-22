@@ -363,7 +363,7 @@ def input_from_tif(filename, channel_num=1, additional_channels=None):
             raise IOError("INPUT TIF FILE NOT FOUND! ("+filename+")")
         
         # If all is well, proceed to load the file using skimage.io and convert to numpy  
-        imported_img = io.MultiImage(filename)
+        imported_img = io.imread(filename)
         imported_img = np.array(imported_img)
         
         # Then, check for channel_num and split the array into 4D by channels if necessary
